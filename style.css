@@ -1,0 +1,76 @@
+/* Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #95f7c2; /* Light Mint Green Background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main Container */
+.container {
+  width: 400px;
+  text-align: center;
+}
+
+/* Form Box Styling */
+.form-box {
+  background: #1e2a38; /* Navy Blue Shade */
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #77ff9e; /* Light Green Button */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+button:hover {
+  background: #66cc88;
+}
+
+/* Links */
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+a {
+  color: #77ff9e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Hide Signup Form Initially */
+.hidden {
+  display: none;
+}
